@@ -10,6 +10,10 @@ import junit.framework.Assert;
 
 public class Utilities {
 
+	/*
+	 * Gson is a singleton pattern. It will only have one instance running
+	 */
+	
 	private Gson gson = new Gson();
 	SoftAssert softAssertion = new SoftAssert();
 	public static Logger log = LogManager.getLogger(Utilities.class.getName());

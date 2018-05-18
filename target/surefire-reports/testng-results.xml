@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="1" ignored="0" total="3" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="9321" started-at="2018-05-18T13:54:51Z" finished-at="2018-05-18T13:55:00Z">
+  <suite name="Suite" duration-ms="5866" started-at="2018-05-18T14:08:03Z" finished-at="2018-05-18T14:08:09Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="9321" started-at="2018-05-18T13:54:51Z" finished-at="2018-05-18T13:55:00Z">
+    <test name="Test" duration-ms="5866" started-at="2018-05-18T14:08:03Z" finished-at="2018-05-18T14:08:09Z">
       <class name="com.hellofresh.web_services.hf_web_services.GetAllCountries">
-        <test-method status="PASS" signature="testCountries()[pri:1, instance:com.hellofresh.web_services.hf_web_services.GetAllCountries@4386f16]" name="testCountries" duration-ms="5374" started-at="2018-05-18T19:24:51Z" finished-at="2018-05-18T19:24:56Z">
+        <test-method status="PASS" signature="testCountries()[pri:1, instance:com.hellofresh.web_services.hf_web_services.GetAllCountries@4386f16]" name="testCountries" duration-ms="1592" started-at="2018-05-18T19:38:03Z" finished-at="2018-05-18T19:38:05Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testCountries -->
-        <test-method status="PASS" signature="testIndividualCountry()[pri:2, instance:com.hellofresh.web_services.hf_web_services.GetAllCountries@4386f16]" name="testIndividualCountry" duration-ms="3104" started-at="2018-05-18T19:24:56Z" finished-at="2018-05-18T19:24:59Z">
+        <test-method status="PASS" signature="testIndividualCountry()[pri:2, instance:com.hellofresh.web_services.hf_web_services.GetAllCountries@4386f16]" name="testIndividualCountry" duration-ms="3147" started-at="2018-05-18T19:38:05Z" finished-at="2018-05-18T19:38:08Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testIndividualCountry -->
-        <test-method status="FAIL" signature="testNewCountryAddition()[pri:3, instance:com.hellofresh.web_services.hf_web_services.GetAllCountries@4386f16]" name="testNewCountryAddition" duration-ms="827" started-at="2018-05-18T19:24:59Z" finished-at="2018-05-18T19:25:00Z">
+        <test-method status="FAIL" signature="testNewCountryAddition()[pri:3, instance:com.hellofresh.web_services.hf_web_services.GetAllCountries@4386f16]" name="testNewCountryAddition" duration-ms="1088" started-at="2018-05-18T19:38:08Z" finished-at="2018-05-18T19:38:09Z">
           <exception class="com.google.gson.JsonSyntaxException">
             <message>
               <![CDATA[Expected a com.google.gson.JsonObject but was com.google.gson.JsonPrimitive]]>
@@ -27,7 +27,7 @@
 	at com.google.gson.Gson.fromJson(Gson.java:852)
 	at com.google.gson.Gson.fromJson(Gson.java:801)
 	at com.google.gson.Gson.fromJson(Gson.java:773)
-	at com.hellofresh.web_services.hf_web_services.GetAllCountries.testNewCountryAddition(GetAllCountries.java:109)
+	at com.hellofresh.web_services.hf_web_services.GetAllCountries.testNewCountryAddition(GetAllCountries.java:111)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)

@@ -1,8 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 3, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 25.216 s <<< FAILURE! - in TestSuite
-testNewCountryAddition(com.hellofresh.web_services.hf_web_services.GetAllCountries)  Time elapsed: 0.833 s  <<< FAILURE!
+Tests run: 3, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 21.754 s <<< FAILURE! - in TestSuite
+testNewCountryAddition(com.hellofresh.web_services.hf_web_services.GetAllCountries)  Time elapsed: 1.111 s  <<< FAILURE!
 com.google.gson.JsonSyntaxException: Expected a com.google.gson.JsonObject but was com.google.gson.JsonPrimitive
-	at com.hellofresh.web_services.hf_web_services.GetAllCountries.testNewCountryAddition(GetAllCountries.java:109)
+	at com.hellofresh.web_services.hf_web_services.GetAllCountries.testNewCountryAddition(GetAllCountries.java:111)
 
