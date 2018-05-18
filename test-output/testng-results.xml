@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="5080" started-at="2018-05-17T10:53:23Z" finished-at="2018-05-17T10:53:28Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="5080" started-at="2018-05-17T10:53:23Z" finished-at="2018-05-17T10:53:28Z">
+      <class name="com.hellofresh.web_services.hf_web_services.GetAllCountries">
+        <test-method status="PASS" signature="testCountries()[pri:1, instance:com.hellofresh.web_services.hf_web_services.GetAllCountries@6276ae34]" name="testCountries" duration-ms="2152" started-at="2018-05-17T16:23:23Z" finished-at="2018-05-17T16:23:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCountries -->
+        <test-method status="PASS" signature="testIndividualCountry()[pri:2, instance:com.hellofresh.web_services.hf_web_services.GetAllCountries@6276ae34]" name="testIndividualCountry" duration-ms="2911" started-at="2018-05-17T16:23:25Z" finished-at="2018-05-17T16:23:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testIndividualCountry -->
+      </class> <!-- com.hellofresh.web_services.hf_web_services.GetAllCountries -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
